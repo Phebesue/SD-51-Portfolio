@@ -1,6 +1,64 @@
-/*General*/
-background-color: #222;
-padding-top: 5.5rem;
-padding-bottom: 5rem;
 
-h1#name.headText {color:#E9967A}
+ body {
+    background-color:#000045;
+    background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    font-family: ''Merriweather', 'Helvetica Neue', Arial, sans-serif';  }
+
+ html {
+   width: 100%;
+   height: 100%; } 
+
+ hr {
+   max-width: 50px;
+   border-width: 3px;
+   border-color: #00bfbf; }
+ 
+ hr.light {
+   border-color: white; }
+ 
+ a {
+   color: #00bfbf;
+   -webkit-transition: all 0.2s;
+   -moz-transition: all 0.2s;
+   transition: all 0.2s; }
+   a:focus, a:hover {
+     color: #00bfbf; } 
+
+ #mainNav {
+   border-color: rgba(34, 34, 34, 0.05);
+   background-color: white;
+   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+   -webkit-transition: all 0.2s;
+   -moz-transition: all 0.2s;
+   transition: all 0.2s; }
+
+   #mainNav .navbar-brand {
+     font-weight: 700;
+     text-transform: uppercase;
+     color: #00bfbf;
+     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+       color: #00bfbf; }
+       
+   #mainNav .navbar-toggle {
+     font-size: 12px;
+     font-weight: 700;
+     text-transform: uppercase;
+     color: #222222; }
+   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus,
+   #mainNav .navbar-nav > li.nav-item > a.nav-link {
+     font-size: 13px;
+     font-weight: 700;
+     text-transform: uppercase;
+     color: #222222; }
+     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
+     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+       color: #00bfbf; }  
+ .btn {
+   font-weight: 700;
+   text-transform: uppercase;
+   border: none;
+   border-radius: 300px;
+   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+ 
