@@ -1,9 +1,9 @@
 
  body {
-    background-color:#000045;
-    background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    font-family: ''Merriweather', 'Helvetica Neue', Arial, sans-serif';  }
+  background-color: #222222;
+  background-image: url("https://www.transparenttextures.com/patterns/maze-black.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+     font-family: ''Merriweather', 'Helvetica Neue', Arial, sans-serif';  }
 
  html {
    width: 100%;
@@ -12,7 +12,7 @@
  hr {
    max-width: 50px;
    border-width: 3px;
-   border-color: #00bfbf; }
+   border-color: #056868; }
  
  hr.light {
    border-color: white; }
@@ -23,7 +23,54 @@
    -moz-transition: all 0.2s;
    transition: all 0.2s; }
    a:focus, a:hover {
-     color: #00bfbf; } 
+     color: #3a3d3d; } 
+     
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px; }
+
+.bg-primary {
+  background-color: white !important; }
+
+.bg-dark {
+  color: white;
+  background-color: #222222 !important; }
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7); }
+
+section {
+  padding: 50px 0; }
+
+::-moz-selection {
+  color: white;
+  background: #222222;
+  text-shadow: none; }
+
+::selection {
+  color: white;
+  background: #222222;
+  text-shadow: none; }
+
+img::selection {
+  color: white;
+  background: transparent; }
+
+img::-moz-selection {
+  color: white;
+  background: transparent; }
+
+body {
+  -webkit-tap-highlight-color: #222222; }
 
  #mainNav {
    border-color: rgba(34, 34, 34, 0.05);
@@ -61,4 +108,168 @@
    border: none;
    border-radius: 300px;
    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+#profileImage{
+    display: flex;
+    justify-content: left;
+}
+#portrait{
+    width: 120px;
+    height:120px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin-top: 4em;
+    margin-left:1em;
+    margin-bottom: 10px;
+}
+#innerProfile{
+    width:30em;
+    height: 7.5em;
+    color: rgb(95, 95, 95);
+    margin-top: 2em;
+    margin-left: 1em;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+#innerProfile h1{
+    margin:auto;
+    height:3em;
+    padding-top: 8%;
+    font-family: 'Raleway', sans-serif;
+    z-index: 1;
+}
+
+/*.overlay{
+
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.644);
+  width:350px;
+  height:350px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
  
+  border:hidden;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  word-wrap: nowrap;
+  
+}
+.overlay img{
+  margin-top: 3em;
+  width:6em;
+  height:auto;
+  cursor: pointer;
+}
+.overlay p{
+  padding:2em;
+
+  color: black;
+  
+}
+.projExample:hover .overlay {
+  opacity: 1;
+}
+.projExample:hover .overlay {
+  opacity: 1;
+}
+.projExample:hover .overlay {
+  opacity: 1;
+}
+.projExample:hover .overlay {
+  opacity: 1;
+}
+.projExample:hover .overlay {
+  opacity: 1;
+}
+.projExample:hover .overlay {
+  opacity: 1;
+}*/
+.btn-default {
+  color: #222222;
+  border-color: white;
+  background-color: white; }
+  .btn-default.focus, .btn-default:focus {
+    color: #222222;
+    border-color: #bfbfbf;
+    background-color: #e6e6e6; }
+  .btn-default:hover {
+    color: #222222;
+    border-color: #e0e0e0;
+    background-color: #e6e6e6; }
+  .btn-default.active, .btn-default:active,
+  .open > .btn-default.dropdown-toggle {
+    color: #222222;
+    border-color: #e0e0e0;
+    background-color: #e6e6e6; }
+    .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover,
+    .open > .btn-default.dropdown-toggle.focus,
+    .open > .btn-default.dropdown-toggle:focus,
+    .open > .btn-default.dropdown-toggle:hover {
+      color: #222222;
+      border-color: #bfbfbf;
+      background-color: #d4d4d4; }
+  .btn-default.active, .btn-default:active,
+  .open > .btn-default.dropdown-toggle {
+    background-image: none; }
+  .btn-default.disabled.focus, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled].focus, .btn-default[disabled]:focus, .btn-default[disabled]:hover,
+  fieldset[disabled] .btn-default.focus,
+  fieldset[disabled] .btn-default:focus,
+  fieldset[disabled] .btn-default:hover {
+    border-color: white;
+    background-color: white; }
+  .btn-default .badge {
+    color: white;
+    background-color: #222222; }
+
+.btn-primary {
+  color: white;
+  border-color: #222222;
+  background-color: #222222; }
+  .btn-primary.focus, .btn-primary:focus {
+    color: white;
+    border-color: #222222;
+    background-color: #222222; }
+  .btn-primary:hover {
+    color: white;
+    border-color: #222222;
+    background-color: #222222; }
+  .btn-primary.active, .btn-primary:active,
+  .open > .btn-primary.dropdown-toggle {
+    color: white;
+    border-color: #222222;
+    background-color: #222222; }
+    .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
+    .open > .btn-primary.dropdown-toggle.focus,
+    .open > .btn-primary.dropdown-toggle:focus,
+    .open > .btn-primary.dropdown-toggle:hover {
+      color: white;
+      border-color: #222222;
+      background-color: #222222; }
+  .btn-primary.active, .btn-primary:active,
+  .open > .btn-primary.dropdown-toggle {
+    background-image: none; }
+  .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover,
+  fieldset[disabled] .btn-primary.focus,
+  fieldset[disabled] .btn-primary:focus,
+  fieldset[disabled] .btn-primary:hover {
+    border-color: #222222;
+    background-color: #222222; }
+  .btn-primary .badge {
+    color: #222222;
+    background-color: white; }
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+
+.btn-xl {
+  padding: 15px 30px; }
