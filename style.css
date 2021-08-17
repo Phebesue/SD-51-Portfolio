@@ -161,6 +161,77 @@ body {
 }
 
 
+/*#innerProfile{
+    width:30em;
+    height: 7.5em;
+    color: rgb(95, 95, 95);
+    margin-top: 2em;
+    margin-left: 1em;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+#innerProfile h1{
+    margin:auto;
+    height:3em;
+    padding-top: 8%;
+    font-family: 'Raleway', sans-serif;
+    z-index: 1;
+}*/
+
+
+/*.overlay{
+
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.644);
+  width:350px;
+  height:350px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+ 
+  border:hidden;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  word-wrap: nowrap;
+  
+}
+.overlay img{
+  margin-top: 3em;
+  width:6em;
+  height:auto;
+  cursor: pointer;
+}
+.overlay p{
+  padding:2em;
+
+  color: black;
+  
+}
+.projExample:hover .overlay {
+  opacity: 1;
+}
+.projExample:hover .overlay {
+  opacity: 1;
+}
+.projExample:hover .overlay {
+  opacity: 1;
+}
+.projExample:hover .overlay {
+  opacity: 1;
+}
+.projExample:hover .overlay {
+  opacity: 1;
+}
+.projExample:hover .overlay {
+  opacity: 1;
+}*/
+
 .btn-default {
     color: #222222;
     border-color: white;
